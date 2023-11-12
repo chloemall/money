@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapperStyle{
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.positioning{
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  justify-content: space-between;
+ }
+ .positioning p{
+  color: rgb(44, 44, 185);
+  cursor: pointer;
+ }
+ .icon{
+  cursor: pointer;
+ }
+@media (max-width: 480px) { 
+ .wrapperStyle{
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ 
+} 
+
+.footer{
+  font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Mooli', sans-serif;
+}
